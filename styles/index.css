@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #000;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: #7F388B;
+    color: white;
+}
+
+:active {
+    outline: none;
+}
+
+:root {
+    --clr-dark: #050505;
+    --clr-white: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7F388B;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: #000000;
+}
+
+
+/* Blured BG
+background-color: rgba(0, 0, 0, 0.2) !important;   
+-webkit-backdrop-filter: saturate(180%) blur(20px);
+backdrop-filter: saturate(180%) blur(20px); */
+
